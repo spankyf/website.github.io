@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #fdffe8;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #e3a554;
+  color: white;
+  font-size: 20px;
+}
+
+.cards-container {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
