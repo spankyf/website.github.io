@@ -31,7 +31,7 @@ body {
   /* height: 100px;
   width: 100px; */
   padding: 10px;
-  display: inline;
+  display: inline-flex;
 }
 
 .resume {
